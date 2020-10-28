@@ -1,0 +1,8 @@
+Given the type of student T, and Average mark M, write a progran to calcualte and return the scholarship
+amount .
+
+Type : T1 , Average > 65 => Scholarship is $3400
+Type : T1 , Average > 50 and <65 Scho : $230
+Type : T2 Averaga >45 Scho : $150
+Type T3 : Scho : $10 
+All others  $5 
