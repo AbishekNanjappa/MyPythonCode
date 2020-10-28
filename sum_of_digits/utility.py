@@ -1,10 +1,11 @@
-def sum_of_digits(num):
-    sum = 0
-    if len(str(num)) == 3:
-        while num > 0:
-            digit = num % 10
-            sum += digit
-            num = int(num / 10)
+def sum_of_digits(N):
+    sum_of_digits = 0
+    digit = 0
+    if N < 0:
+        sum_of_digits = -1
     else:
-        sum = -1
-    return sum
+        while N > 0:
+            digit = N % 10
+            sum_of_digits += digit
+            N = int(N / 10)
+    return sum_of_digits
